@@ -6,7 +6,7 @@
 
 **The user will be able to instruct an elevator to do the following:**
 
-1. Call an elevator by entering a floor number and amount of people waiting on the floor.
+1. Call an elevator to a specific floor by entering a floor number and amount of people waiting on the floor.
 2. Dispatch the elevator to a specific floor
 
 **The elevator management system has the following intelligence:**
