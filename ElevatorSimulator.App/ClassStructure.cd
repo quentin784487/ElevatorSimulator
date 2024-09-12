@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ElevatorSimulator.App.Models.Elevator">
+    <Position X="5.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAIgAAAAAAAABAAQBAAAgAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Models\Elevator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ElevatorSimulator.App.Models.Floor">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Floor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.231" />
+  </Class>
+  <Class Name="ElevatorSimulator.App.Services.CentralComputer">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAAEAAACAAAAAAAAAQAAAACAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Services\CentralComputer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ElevatorSimulator.App.Models.FreightElevator">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FreightElevator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorSimulator.App.Models.GlassElevator">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GlassElevator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorSimulator.App.Models.Request">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Request.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ElevatorSimulator.App.Models.HighSpeedElevator">
+    <Position X="5.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HighSpeedElevator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorSimulator.App.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorSimulator.App.Exceptions.ElevatorCapacityException">
+    <Position X="0.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ElevatorCapacityException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorSimulator.App.Exceptions.InvalidFloorException">
+    <Position X="0.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidFloorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorSimulator.App.Exceptions.InvalidInputException">
+    <Position X="0.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidInputException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ElevatorSimulator.App.Models.RequestTypes">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RequestTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
