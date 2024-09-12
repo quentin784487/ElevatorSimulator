@@ -2,7 +2,7 @@
 
 ## Class structure
 
-##1. Models
+## 1. Models
 
 ** * Elevator **
 
@@ -17,17 +17,17 @@
 * Request
 * ServiceTests
 
-##2. Interfaces
+## 2. Interfaces
 
 * IElevator
 * IFloor
 * IRequest
 * ICentralComputer
 
-##3. Services
+## 3. Services
 
 * CentralComputer
 
-##4. Enums
+## 4. Enums
 
 * RequestTypes
