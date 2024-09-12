@@ -1,15 +1,12 @@
 # Elevator Simulator
 
+***
+
 ## Class structure
 
 ## 1. Models
 
-** * Elevator **
-
-	Properties
-	
-	Methods
-
+* Elevator
 * Floor
 * FreightElevator
 * GlassElevator
