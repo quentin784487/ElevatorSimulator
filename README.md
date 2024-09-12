@@ -4,30 +4,30 @@
 
 **1. Models**
 
-..*Elevator
+*Elevator
 
 	Properties
 	
 	Methods
 
-..*Floor
-..*FreightElevator
-..*GlassElevator
-..*HighSpeedElevator
-..*Request
-..*ServiceTests
+*Floor
+*FreightElevator
+*GlassElevator
+*HighSpeedElevator
+*Request
+*ServiceTests
 
 **2. Interfaces**
 
-..*IElevator
-..*IFloor
-..*IRequest
-..*ICentralComputer
+*IElevator
+*IFloor
+*IRequest
+*ICentralComputer
 
 **3. Services**
 
-..*CentralComputer
+*CentralComputer
 
 **4. Enums**
 
-..*RequestTypes
+*RequestTypes
