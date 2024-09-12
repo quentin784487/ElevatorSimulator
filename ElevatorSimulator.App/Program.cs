@@ -6,20 +6,19 @@ using ElevatorSimulator.App.Services;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace ElevatorSimulator.App
 {
     internal class Program
     {
         static async Task Main(string[] args)
-        {
-            const int MAX_CAPACITY = 10;
-
+        {            
             var elevators = new List<IElevator>
                     {
-                        new HighSpeedElevator(1, MAX_CAPACITY),
-                        new GlassElevator(2, MAX_CAPACITY),
-                        new FreightElevator(3, MAX_CAPACITY)
+                        new HighSpeedElevator(1, 10),
+                        new GlassElevator(2, 10),
+                        new FreightElevator(3, 10)
                     };
 
             var floors = new List<IFloor>
@@ -95,7 +94,7 @@ namespace ElevatorSimulator.App
                             if (elevator == null)
                             {
                                 totalWaiting = 0;
-                                throw new ElevatorCapacityException();
+                                throw new ElevatorCapacityException($"The amount of people exceeds the maximum capacity of {elevators.OrderByDescending(x=>x.MaximumCapacity).First().MaximumCapacity}.");
                             }
                             else
                                 await centralComputer.MoveElevator(floor, RequestTypes.CALL, elevator);

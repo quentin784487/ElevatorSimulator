@@ -7,10 +7,10 @@ namespace ElevatorSimulator.App.Models
     public class Elevator : IElevator
     {
         public int Id { get; set; }
+        public int MaximumCapacity { get; set; }
         private int CurrentFloor;
         private int Speed;
-        private int CurrentCapacity;
-        private int MaximumCapacity;
+        private int CurrentCapacity;        
         private string Name;
 
         public Elevator(int id, string name, int speed, int capacity)
