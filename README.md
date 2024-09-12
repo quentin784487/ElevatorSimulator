@@ -25,7 +25,6 @@
 * GlassElevator
 * HighSpeedElevator
 * Request
-* ServiceTests
 
 ## 2. Interfaces
 
@@ -47,3 +46,7 @@
 * ElevatorCapacityException
 * InvalidFloorException
 * InvalidInputException
+
+## 6. Unit Tests
+
+* ServiceTests
