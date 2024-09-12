@@ -49,7 +49,7 @@ namespace ElevatorSimulator.App
                 {
                     if (callingFloor == -1)
                     {
-                        Console.WriteLine("\nSpecify calling floor:");
+                        Console.WriteLine("\nPlease indicate which floor you are on:");
                         var input = Console.ReadLine();
 
                         if (input.ToUpper() == "EXIT")
@@ -75,7 +75,7 @@ namespace ElevatorSimulator.App
 
                     if (totalWaiting == 0)
                     {
-                        Console.WriteLine("\nSpecify total people waiting on calling floor:");
+                        Console.WriteLine("\nHow many people are waiting on your floor:");
                         var input = Console.ReadLine();
 
                         if (input.ToUpper() == "EXIT")
@@ -109,7 +109,7 @@ namespace ElevatorSimulator.App
 
                     if (requestedFloor == -1)
                     {
-                        Console.WriteLine("Specify floor to visit:");
+                        Console.WriteLine("Please indicate your destination floor:");
                         var input = Console.ReadLine();
 
                         if (input.ToUpper() == "EXIT")
@@ -131,7 +131,7 @@ namespace ElevatorSimulator.App
 
                                 callingFloor = -1;
                                 totalWaiting = 0;
-                                requestedFloor = -1;
+                                requestedFloor = -1;                                
                             }
                         }
                         else

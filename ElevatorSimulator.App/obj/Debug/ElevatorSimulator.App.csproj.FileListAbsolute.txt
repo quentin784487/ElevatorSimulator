@@ -12,3 +12,10 @@ C:\_systems\ElevatorSimulator_old\ElevatorSimulator.App\obj\Debug\ElevatorSimula
 C:\_systems\ElevatorSimulator_old\ElevatorSimulator.App\obj\Debug\ElevatorSimulator.App.csproj.CoreCompileInputs.cache
 C:\_systems\ElevatorSimulator_old\ElevatorSimulator.App\obj\Debug\ElevatorSimulator.App.exe
 C:\_systems\ElevatorSimulator_old\ElevatorSimulator.App\obj\Debug\ElevatorSimulator.App.pdb
+C:\_systems\ElevatorSimulator\ElevatorSimulator.App\bin\Debug\ElevatorSimulator.App.exe.config
+C:\_systems\ElevatorSimulator\ElevatorSimulator.App\bin\Debug\ElevatorSimulator.App.exe
+C:\_systems\ElevatorSimulator\ElevatorSimulator.App\bin\Debug\ElevatorSimulator.App.pdb
+C:\_systems\ElevatorSimulator\ElevatorSimulator.App\obj\Debug\ElevatorSimulator.App.csproj.AssemblyReference.cache
+C:\_systems\ElevatorSimulator\ElevatorSimulator.App\obj\Debug\ElevatorSimulator.App.csproj.CoreCompileInputs.cache
+C:\_systems\ElevatorSimulator\ElevatorSimulator.App\obj\Debug\ElevatorSimulator.App.exe
+C:\_systems\ElevatorSimulator\ElevatorSimulator.App\obj\Debug\ElevatorSimulator.App.pdb
