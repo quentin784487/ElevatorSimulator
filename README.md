@@ -41,3 +41,9 @@
 ## 4. Enums
 
 * RequestTypes
+
+## 5. Exceptions
+
+* ElevatorCapacityException
+* InvalidFloorException
+* InvalidInputException
